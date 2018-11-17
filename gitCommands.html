@@ -1,0 +1,46 @@
+git config  --global user.name "username"  ##to changge user
+
+ git config user.name  ##to displayName
+ git remote -v
+ git remote add production <url>
+ git pull production master
+ git branch sprint94
+ git clone <url>
+ git diff 
+ git branch -m <newname>
+ git branch -m <oldname> <newname>  ##at any point of branch
+git checkout -b newBanch Branch 
+ git log --all --graph --decorate --oneline
+ 
+ git commit -m "comment"
+ git push origin taskBranch
+ git checkout .  ##wil undo the changes and revert to last commit
+ //merge our working branch with someone's branch
+ git pull <url> <branch>
+ git push origin task8511
+ 
+ git log branch --not --remotes  ##gives local commits
+
+ ##extra feat
+  git diff HEAD~  ##get diff bet last two commits
+git remote show origin
+ git reset --hard HEAD   #will revert last commit and undo all the changes
+git rm -r --cached package-output  ##unstage files
+git stash -u
+git stash pop stash@{1}
+git push origin +master
+git reset –hard HEAD~
+git reset filename.txt ##willl undo staging ie git add filename
+git checkout filename ## wil revert the changes to the last commit
+git commit -i "message" ## -i is used when commiting a conflict
+git merge b ## will merge current branch with b
+git commit --amend ## to add new changes to old commit
+git push -f origin same_branch  ####warning forced push be careful to push amended branch
+git checkout <commitId>  ##revert to previous commit
+
+http://bit-booster.com/graph.html
+
+To Learn
+Sqash
+
+
